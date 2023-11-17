@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500&family=PT+Mono&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,300&family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,100;1,300;1,400&display=swap');
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: rgba(0, 0, 33);
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 97px;
+    background-color: rgba(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover {
+    color: rgb(134, 134, 221);
+    transition: 0.5ms;
+}
+
+.purple {
+    color: purple;
+}
+
+.text-gray {
+    color: gray;
+}
+
+.left {
+    font-size: 1.5rem;
+
+}
+
+.frist-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 70px 0;
+    align-items: center;
+}
+
+.frist-section>div {
+    width: 32%;
+}
+
+.left-section {
+    font-size: 3rem;
+}
+.left-section .btn {
+    padding: 10px;
+    outline: none;
+    text-align: center;
+    text-decoration: none;
+    background:#1e2167;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.left-section .btn:hover{
+    color: #1e2167;
+    background-color: white;
+    transition: 0.5s all;
+}
+.right-section img {
+    width: 100%;
+}
+
+#element {
+    color: rgb(95, 95, 207);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 65vh;
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(76, 76, 158);
+    height: 1px;
+    margin: 40px 84px;
+}
+
+.secondSection h1 {
+    font-size: 1.6rem;
+
+}
+
+.secondSection .box {
+    background-color: white;
+    width: 66vw;
+    height: 2px;
+    margin: 50px 0;
+    display: flex;
+}
+
+.secondSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: #ffff;
+    margin: 0 125px;
+}
+
+.image-top {
+    position: relative;
+    height: 23px;
+    width: 23px;
+    top: -32px;
+    left: -9px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 74px;
+    width: 120px;
+}
+
+.vertical-desc {
+    position: relative;
+    color: gray;
+    width: 126px;
+    font-size: 9px;
+    top: 76px;
+}
+footer {
+    background-color: #0e0e1a;
+    /* height: 233px; */
+}
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 23px 122px;
+}
+.footer-second ul{
+    text-decoration: none;
+
+}
+.footer ul {
+    list-style: none;
+}
+.footer > div {
+    width: 223px;
+}
+.text-center {
+    text-align: center;
+    padding: 12px 0;
+}
